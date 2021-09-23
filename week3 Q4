@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Question 4
+    </title>
+    <style media="screen">
+      .Big {
+            font-size: 20px;
+        }
+        p.Big {
+            background-color: green;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="Big">here we use the big class</div>
+    <p class="Big">this paragraph has green background colour</p>
+
+  </body>
+</html>
