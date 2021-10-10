@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+    <style>
+body{
+  
+    background-color: rgb(157, 238, 146);
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+.first{
+}
+#image{
+   width:50%;
+   height:5
+}
+h1{
+    color:rgb(173, 6, 56);
+    
+    text-align: center;
+    
+}
+.second{
+    font-size: 100%;
+    font-style: normal;
+    margin:20px auto 20px auto;
+    
+
+}
+.third{
+    margin:0%;
+    padding:10px 10px 10px 10px;
+}
+#abc{
+    
+    margin:15px 0 0 25px;
+}
+#yuvrajimage{
+    border-radius: 50%;
+    width:300px;
+    height:250px;
+ 
+   
+    padding-top: 5px;
+    
+}
+.zero{
+              
+}
+
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="first">
+        <h1>Box Model</h1>:
+            <img id="image" src="data:image/png;base64,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" alt="BoxModel Image">
+ </div>
+ <div class="second">
+    In CSS, the term "box model" is used when talking about design and layout.
+
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding. The image above illustrates the box model.
+    <br>
+    <hr>
+   <h3 id="abc">Explanation of the different parts:</h3>  <br>
+</div>
+<div class="third">Content: - The content of the box, where text and images appear <br>Padding: - Clears an area around the content. The padding is transparent <br>Border:<- A border that goes around the padding and content <br>Margin: - Clears an area outside the border. The margin is transparent <br>
+</div>
+
+<hr>
+
+    
+</div>
+<div>Thanks for visiting</div>
+</body>
+</html>
