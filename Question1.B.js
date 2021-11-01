@@ -1,0 +1,1 @@
+alert("Success!! Linked with javaScript externally");
