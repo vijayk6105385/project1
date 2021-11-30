@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Java Script Assignment-2</title>
+	<style type="text/css">
+		
+	body {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+    h2{
+      color: #000;
+      padding: 25px;
+      border-radius: 55px;
+      font-weight: 650;
+      font-family: 'popins',sans-serif;
+      background: linear-gradient(#e66465, #9198e5);
+    }
+	</style>
+</head>
+<body>
+  <h1>Creating Objects </h1>
+  
+	<h2>Open Developer tools the check Consol to see the required output.</h2>
+	<script type="text/javascript">
+		function Person(fname, lname, office) {
+  this.firstName = fname;
+  this.lastName = lname;
+  this.officeAdress = office;
+}
+const details = new Person('firstName','lastName','officeAdress');
+const personOne = new Person('Vijay', 'Patel', 'Mumbai');
+const personTwo = new Person('Neeraj', 'Yadav','Delhi');
+const personThree = new Person('Priyam','Sharma','Banglore');
+console.log(details.firstName+" "+details.lastName+" "+details.officeAdress);
+console.log(personOne.firstName+" "+personOne.lastName+" "+personOne.officeAdress);
+console.log(personTwo.firstName+" "+personTwo.lastName+" "+personTwo.officeAdress);
+console.log(personThree.firstName+" "+personThree.lastName+" "+personThree.officeAdress);
+	</script>
+</body>
+</html>
